@@ -244,7 +244,6 @@ describe('obtenerSaludo(name)', function() {
     expect(obtenerSaludo('Antonio')).toBe('Hola Antonio!');
   });
 });
-
 describe('obtenerAreaRectangulo(alto, ancho)', function() {
   it('Deberia retornar el area correcta del rectangulo', function() {
     expect(obtenerAreaRectangulo(2, 2)).toBe(4);
